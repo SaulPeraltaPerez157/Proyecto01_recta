@@ -1,4 +1,6 @@
 package Recta;
+import java.lang.Math;
+
 public class recta{
 	private int m;
 	private int b;
@@ -23,9 +25,13 @@ public class recta{
 			System.out.println("----X---- |---- Y ----");
 			for(int i=value_i; i<value_f;i++){
 				System.out.print(i + "                ");
-				System.out.println(m*b+i);
+				System.out.println((m*i)+b);
 			}
 		}
+	}
+
+	public double angulo_grados(){
+		return (Math.atan(this.m))*(180/Math.PI);
 	}
 }
 
