@@ -2,18 +2,18 @@ package Recta;
 import java.lang.Math;
 
 public class recta{
-	private int m;
-	private int b;
-	public recta(int m, int b){
+	private double m;
+	private double b;
+	public recta(double m, double b){
 		this.m = m;
 		this.b = b;
 	}
 
-	public int getm(){
+	public double getm(){
 		return this.m;
 	}
 
-	public int getb(){
+	public double getb(){
 		return this.b;
 	}
 
